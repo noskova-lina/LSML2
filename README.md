@@ -1,13 +1,19 @@
 # LSML2
 
 ## Project Overview
-In this project, I am developing a machine learning service that automatically generates tags for StackOverflow questions. Utilizing natural language processing and the BERT model for transfer learning, the service will process the text of StackOverflow questions to predict relevant tags, facilitating efficient categorization and searchability.
+In this project, I am developing a machine learning service that automatically generates tags for StackOverflow questions. This task involves processing text data, classifying it, and using machine learning techniques to automatically label questions based on their content.
 
-Objective: To predict tags for StackOverflow questions using their text content.
+### Objective: 
+To predict tags for StackOverflow questions using their text content.
 
-Input: Text of a StackOverflow question (both title and body).
+### Data:
+Dataset with StackOverflow questions, available on Kaggle: https://www.kaggle.com/datasets/muhammedabdulazeem/500k-stackoverflow-questions/data. This dataset contains questions, answers, and tags associated with the questions. For this task, I only use questions and their associated tags.
 
-Output: A list of predicted tags relevant to the question.
+### Input: 
+Text of a StackOverflow question (both title and body).
+
+### Output: 
+List of tags most relevant to the question.
 
 ## Key Components:
 
