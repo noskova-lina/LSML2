@@ -1,7 +1,7 @@
 # LSML2
 
 ## Project Overview
-In this project, I am developing a machine learning service that automatically generates tags for StackOverflow questions. Utilizing the power of natural language processing (NLP) and the BERT model for transfer learning, the service will process the text of StackOverflow questions to predict relevant tags, facilitating efficient categorization and searchability.
+In this project, I am developing a machine learning service that automatically generates tags for StackOverflow questions. Utilizing natural language processing and the BERT model for transfer learning, the service will process the text of StackOverflow questions to predict relevant tags, facilitating efficient categorization and searchability.
 
 Objective: To predict tags for StackOverflow questions using their text content.
 
